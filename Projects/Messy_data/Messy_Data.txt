@@ -1,0 +1,30 @@
+	
+
+	Thesis_
+
+The aim of this investigation is to understand what common skills, tools and education, employers are looking for when hiring a data scientists, using the unstructured dataset provided. In adition the the locality and intensity of the jobs will also explored.
+
+
+	Methodology_
+
+First step was to identify the most repeated word combitinations under the 'position' column. Data Scientist, Senior Data Scientist, Research Analyst, Data Engineer, Machine Learning Engineer came back as the top 5 most used titles.
+
+
+1. Who gets hired?
+2. Which location has the most opportunities?
+3. What skills, tools, degrees are required?
+
+  
+	Summary_
+
+	Location_
+New York appears to have the most data science related job advertisments, while San Francisco, Seattle, Chicago, Boston, Washington DC all have a large amount of opportunities.
+
+	Soft/Hard Skills_
+Communication and "Statistics appear to be the most desired soft skills. While Python, Excel and SQL are clearly the most desired technical skills that prospective companies are looking for.
+
+	
+	Education_
+If you have hopes and dreams of being a data scientist, then a PHd is common requirement. Data analysts on the other hand require a bachelors degree on average. 
+
+PS.Fueled by 🍩
