@@ -13,6 +13,9 @@ SELECT MAX(length) as max_duration, MIN(length) as min_duration FROM film;
 # 4.What's the average movie duration expressed in format (hours, minutes)?
 SELECT substring_index(SEC_TO_TIME(AVG(length)*60), ':', 2) as 'AVG_duration' FROM film;
 
+SELECT avg(length)/60) as 
+
+
 ## 5.How many distinct (different) actors' last names are there?
 SELECT COUNT(DISTINCT last_name) FROM actor;
 
@@ -27,8 +30,8 @@ LIMIT 20;
 SELECT *,
 CASE
 when (rental_date) >= 6 then 'weekend'
-else 'workday'
-end
+ELSE 'workday'
+END
 as 'day_type'
 FROM rental
 END;
@@ -39,5 +42,8 @@ SELECT MAX(rental_date) from rental;
 
 SELECT COUNT(*) as past_month_rentals FROM rental
 WHERE rental_date BETWEEN '2006-01-15' AND '2006-02-15';
+
+SELECT COUNT(*) FROM rental
+WHERE rental_date LIKE '2006-02%';
 
 #YA ESTÁ
