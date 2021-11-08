@@ -61,7 +61,51 @@ ON b.author_id = a.author_id;
 
 #short form
 	# FROM books b JOIN authors a using(author_id);
+    
+-- DAY 2 --
+
+	# Add a column 'i have rad it'  tinyinty(boolean) default false (0)
+ALTER TABLE books
+ADD COLUMN I_have_read_it BOOLEAN DEFAULT FALSE;
+
+	#fill in the column per reading history
+UPDATE books SET I_have_read_it = TRUE
+WHERE book_id in (1,2,3,5,6,7);
+
+	# JOIN to query
+SELECT * 
+FROM books b
+JOIN authors a
+ON b.author_id=a.author_id;
+
+;
+
+SELECT b.bookname, a.author_name, a.country, b.I_have_read_it
+FROM books b
+JOIN authors a
+ON b.author_id=a.author_id;
+
+SELECT * FROM books JOIN authors USING(author_id);
 
 
 
+use books;
+	INSERT INTO authors (authorname,country)
+	VALUES ('D Trump','USA');
 
+	SELECT count(distinct author_id) from authors;
+	SELECT count(distinct author_id) from books;
+
+	SELECT * 
+	FROM books 
+	INNER JOIN authors 
+	USING(author_id);
+
+	SELECT * 
+	FROM books 
+	RIGHT JOIN authors 
+	USING (author_id)
+    WHERE book_id is null;
+    
+    
+    

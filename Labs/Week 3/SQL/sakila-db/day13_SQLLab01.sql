@@ -84,11 +84,11 @@ WHERE active=0;
 DELETE FROM customer
 WHERE active= 0; 
  
-#disable the foreign key check 
+	#disable the foreign key check 
 SET SQL_SAFE_UPDATES = 0;
 SET FOREIGN_KEY_CHECKS=0;
 
-#reenable the foreign key check
+	#re-enable the foreign key check
 SET SQL_SAFE_UPDATES = 1;
 SET FOREIGN_KEY_CHECKS=1;
  
