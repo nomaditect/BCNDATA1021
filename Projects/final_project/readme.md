@@ -17,6 +17,7 @@
 2) [links with tips on how to use agile/scrum/sprint methods to manage your project](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/final_project/Agile_method.md)
 3) [projects from past cohorts we liked](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/final_project/past_cohort_projects.md) - - git hub repos, we have not checked they all still work- theres a variety of levels in here, not just the technically advanced. All had great presentations
 4) [sample project briefs](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/final_project/project_proposals.md) (some ideas to get you started) that we have not yet seen 
+5) [how to scope your project](https://github.com/student-IH-labs-and-stuff/BCNDATA1021/blob/main/Projects/final_project/how_to_scope.png) 
 
 
 
@@ -48,8 +49,8 @@ The initial project kick off meeting is often the best moment of any workspace p
 + a) TA - what did they do for a final project ? How did it go ?
 + b) What does Sian look for in a great project idea or delivery of that idea ? 
 + c) Past project profiles  
-+ d) Project Brief - spotify - Break out room discussion 
-+ e) Feedback on the spotify project brief (main room) 
++ d) Project Brief - spotify - Break out discussion 
++ e) Feedback on the spotify project brief 
 + f) Project Briefs Sian has provided (any Q?) 
 + g) Invitation to brainstorm with your peers or explore the resources
 
